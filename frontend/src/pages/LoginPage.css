@@ -1,0 +1,67 @@
+body {
+    background: linear-gradient(to bottom right, #e0d2e9, #f4ebf7);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Style the form container */
+  .Auth-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style the form */
+  .Auth-form {
+    background: linear-gradient(to bottom right, #f4f9fc, #e6f2f7);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the form content */
+  .Auth-form-content {
+    text-align: center;
+  }
+  
+  /* Style the form title */
+  .Auth-form-title {
+    color: #4a4171;
+    font-family: "Georgia", serif;
+  }
+  
+  /* Style the form group */
+  .form-group {
+    margin: 10px 0;
+  }
+  
+  /* Style the form label */
+  .form-label {
+    color: #7b6491;
+    font-family: "Georgia", serif;
+  }
+  
+  /* Style the form input */
+  .form-input {
+    background-color: #e6e6ff;
+    border: 1px solid #dcdcdc;
+    padding: 8px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Style the form button */
+  .form-button {
+    background-color: #b09ece;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Style the form text */
+  .form-text {
+    color: #4a4171;
+    font-family: "Georgia", serif;
+    margin-top: 10px;
+  }

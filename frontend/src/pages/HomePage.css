@@ -1,0 +1,82 @@
+/* HomePage.css */
+
+/* Apply light lavender gradient background to the entire page */
+body {
+    background: linear-gradient(to bottom right, #e6e6ff, #f0eaff); /* Light lavender gradient */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Change font to Segoe UI */
+  }
+  
+  /* Style the h1 element */
+  h1 {
+    color: #5a4171; /* Deep lavender color for headings */
+    text-align: center; /* Center align the header */
+    font-family: "Georgia", serif; /* Change font to Georgia */
+  }
+  
+  /* Style the h2 element */
+  h2 {
+    color: #7b6491; /* Slightly darker lavender color for subheadings */
+    text-align: center; /* Center align the subheader */
+    font-family: "Georgia", serif; /* Change font to Georgia */
+  }
+  
+  /* Style the h3 element */
+  h3 {
+    color: #523c61; /* Plum color */
+    font-family: "Georgia", serif; /* Change font to Georgia */
+  }
+  
+  /* Style the button */
+  button {
+    background-color: #b09ece; /* Lilac color for buttons */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 8px 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Style the table */
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+    background: linear-gradient(to bottom right, #f7f7f7, #f2f2f2); /* Light gray gradient background for the table */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+  }
+  
+  .table th, .table td {
+    border: 1px solid #dcdcdc; /* Light gray border */
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Apply light lavender background to input fields and textareas */
+  input[type="text"], input[type="password"], textarea {
+    background-color: #e6e6ff; /* Light lavender color */
+    border: 1px solid #dcdcdc; /* Light gray border */
+    padding: 8px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Apply light gray gradient background to ul and li elements */
+  ul {
+    background: linear-gradient(to bottom right, #f7f7f7, #f2f2f2); /* Light gray gradient background for ul */
+    padding: 8px;
+    list-style-type: none;
+  }
+  
+  ul li {
+    margin-bottom: 4px;
+  }
+  
+  /* Style the li elements in the ul */
+  ul li {
+    color: #5a4171; /* Deep lavender color for list items */
+  }
+  
+  /* Style the retrieved kindle version details */
+  ul h3 {
+    margin-top: 20px;
+  }
+  
